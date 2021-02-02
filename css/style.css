@@ -104,10 +104,131 @@ ul {
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
+    transition: background .3s;
 }
 
 .nav-item:last-child .nav-link:hover {
     background-color: var(--color-hover);
+}
+
+/* 
+    SECOND SECTION
+*/
+
+.attent .container {
+    padding: 300px 0;
+    padding-bottom: 200px;
+}
+
+.attent__content__title {
+    font-size: 55px;
+    color: var(--color);
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.attent__content__text {
+    font-size: 15px;
+    color: rgba(0,0,0,0.6);
+    width: 45%;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.service {
+    background-color: white;
+    width: 40%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.service__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.service__item1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-list {
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.service__list .service__item1:hover .dropdown-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-item {
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    margin-bottom: 5px;
+    padding: 6px 15px;
+}
+
+.service__slog {
+    font-size: 15px;
+    color: rgba(0,0,0,0.6);
+}
+
+.service__link {
+    margin-left: 40px;
+}
+
+.service__item .service__item__link {
+    color: white;
+    background-color: var(--bg-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.service__item .service__item__link:hover {
+    background-color: var(--color-hover);
+}
+
+.attent__img__section {
+    position: relative;
+}
+
+.rectangle3 {
+    position: absolute;
+    z-index: -1;
+    bottom: 0%;
+    right: 18%;
+    width: 35%;
+    height: 400px;
+}
+
+.rectangle4 {
+    position: absolute;
+    bottom: 100%;
+    right: -15%;
+    height: 400px;
+}
+
+.rectangle5 {
+    position: absolute;
+    z-index: -3;
+    right: -15%;
+    width: 30%;
+}
+
+.dots1 {
+    position: absolute;
+    z-index: -1;
+    height: 120px;
+    left: -5%;
+    bottom: 50%;
+    transform: translateY(50%);
 }
 
 
