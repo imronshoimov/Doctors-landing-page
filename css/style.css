@@ -1,10 +1,66 @@
+:root {
+    --bg-color: #261B59;
+    --color: #261B59;
+    --color-hover: #3b2392;
+}
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
 }
 
 a {
-    list-style: none;
     text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.nav-item {
+    padding: 0 7px;
+    margin: 0 5px;
+}
+
+.nav-link {
+    font-size: 19px;
+    color: var(--color);
+    transition: color .3s;
+}
+
+.nav-link:hover {
+    color: var(--color-hover);
+}
+
+.nav-item:last-child .nav-link {
+    background-color: var(--bg-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.nav-item:last-child .nav-link:hover {
+    background-color: var(--color-hover);
+}
+
+.rectangle1 {
+    width: 30%;
 }
