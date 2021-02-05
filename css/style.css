@@ -336,7 +336,7 @@ ul {
     padding: 200px 0;
 }
 
-.header {
+.main__header {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -366,7 +366,7 @@ ul {
     color: rgba(0,0,0,0.5);
 }
 
-.footer {
+.main__footer {
     background-color: #E8F6FF;
     position: relative;
 }
@@ -436,4 +436,92 @@ ul {
 
 .footer__link:hover {
     background-color: var(--color-hover);
+}
+
+/* 
+    FIFTH SECTION
+*/
+
+.clients .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+    width: 1500px;
+}
+
+.client__bg-img {
+    width: 45%;
+    height: 400px;
+}
+
+.client__bg__img {
+    width: 100%;
+    height: 100%;
+}
+
+.client__info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F6F8;
+    padding: 80px 65px;
+    position: relative;
+}
+
+.ellipse1, .ellipse2, .ellipse3 {
+    position: absolute;
+}
+
+.ellipse1 {
+    right: 5%;
+    bottom: 9%;
+    width: 2.5%;
+}
+
+.ellipse2 {
+    right: 5%;
+    bottom: 6%;
+    width: 2.5%;
+}
+
+.ellipse3 {
+    right: 5%;
+    bottom: 3%;
+    width: 2.5%;
+} 
+
+.comma {
+    width: 25%; 
+}
+
+.client__info__text {
+    margin-top: 50px;
+    width:250px;
+    text-align: center;
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.clients__info__name {
+    margin-top: 30px;
+    text-align: center;
+    color: #261B59;
+    font-weight: bold;
+    font-size: 18px;
+    width: 50%;
+}
+
+.patient{
+    font-size: 14px;
+}
+
+.clients__slog {
+    width: 20%;
+    font-size: 70px;
+    text-align: center;
+    color: #261B59;
+    opacity: 0.12156862745098039;
 }
