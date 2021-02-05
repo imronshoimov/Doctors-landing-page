@@ -604,6 +604,10 @@ ul {
     font-size: 17px;
 }
 
+.subscribe__button:hover {
+    background-color: var(--color-hover);
+}
+
 /* 
     FOOTER SECTION
 */
