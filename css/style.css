@@ -602,6 +602,10 @@ ul {
     color: white;
     padding: 15px 25px;
     font-size: 17px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    transition: background .3s;
 }
 
 .subscribe__button:hover {
